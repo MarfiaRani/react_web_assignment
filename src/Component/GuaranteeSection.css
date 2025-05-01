@@ -1,0 +1,25 @@
+.guarantee-container {
+    background-color: #e6ecf1;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.guarantee-card {
+    background-color: rgb(243, 215, 173);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(233, 224, 224, 0.1);
+    transition: 0.3s ease-in-out;
+}
+
+.guarantee-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.guarantee-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}

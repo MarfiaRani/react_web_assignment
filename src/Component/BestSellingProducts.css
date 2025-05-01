@@ -1,0 +1,33 @@
+.product-card {
+    background-color: #f8f9fa;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.product-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+/* Centered Button Styling */
+.view-all-btn {
+    width: 150px;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap Primary Color */
+    color: white;
+    transition: 0.3s ease;
+}
+
+.view-all-btn:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
